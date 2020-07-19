@@ -3,6 +3,13 @@ body {
   margin: 0;
   padding: 0;
 }
+/*logo*/
+
+.logo img {
+  margin-top: 0;
+  padding-left: 0;
+  margin-left: 100px;
+}
 
 header {
   height: 112px;
@@ -21,11 +28,6 @@ ul li {
 
 header nav {
   float: right;
-}
-
-.logo img {
-  margin-top: 30px;
-  padding-left: 50px;
 }
 
 header nav ul li a {
@@ -114,6 +116,24 @@ body {
   transition: all 0.4s;
   background-color: violet;
   color: white;
+}
+
+/*historia*/
+
+.content {
+  position: absolute;
+  width: 962px;
+  height: 268px;
+  left: 196px;
+  top: 783px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #000000;
 }
 
 /*FOOTER RODAPÉ DO SITE*/
