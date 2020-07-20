@@ -198,35 +198,31 @@ body {
 }
 
 /* Cards */
-.card {
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  grid-gap: 20px;
   position: absolute;
   width: 275.36px;
   height: 177.65px;
   left: 198px;
   top: 454.35px;
 
-  background: linear-gradient(180deg, #98E03C 0%, #92D275 100%);
+  background: linear-gradient(180deg, #98e03c 0%, #92d275 100%);
   border-radius: 30px;
 }
 
-.card2 {
-  position: absolute;
-  width: 275.36px;
-  height: 177.65px;
-  left: 521.32px;
-  top: 454.35px;
-
-  background: linear-gradient(180deg, #98E03C 0%, #92D275 100%);
-  border-radius: 30px;
+.card {
+  display: grid;
+  grid-template-rows: max-content 200px 1fr;
 }
 
-.card3 {
-  position: absolute;
-  width: 275.36px;
-  height: 177.65px;
-  left: 844.64px;
-  top: 454.35px;
+.card img {
+  object-fit: cover;
 
-  background: linear-gradient(180deg, #98E03C 0%, #92D275 100%);
-  border-radius: 30px;
+  position: absolute;
+  left: 24.11%;
+  right: 71.38%;
+  top: 18.91%;
+  bottom: 79.18%;
 }
