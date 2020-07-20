@@ -196,3 +196,37 @@ body {
   line-height: 33px;
   color: black;
 }
+
+/* Cards */
+.card {
+  position: absolute;
+  width: 275.36px;
+  height: 177.65px;
+  left: 198px;
+  top: 454.35px;
+
+  background: linear-gradient(180deg, #98E03C 0%, #92D275 100%);
+  border-radius: 30px;
+}
+
+.card2 {
+  position: absolute;
+  width: 275.36px;
+  height: 177.65px;
+  left: 521.32px;
+  top: 454.35px;
+
+  background: linear-gradient(180deg, #98E03C 0%, #92D275 100%);
+  border-radius: 30px;
+}
+
+.card3 {
+  position: absolute;
+  width: 275.36px;
+  height: 177.65px;
+  left: 844.64px;
+  top: 454.35px;
+
+  background: linear-gradient(180deg, #98E03C 0%, #92D275 100%);
+  border-radius: 30px;
+}
