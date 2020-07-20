@@ -140,15 +140,19 @@ body {
 /*button*/
 .mais {
   justify-content: center;
-  width: 233px;
-  height: 62px;
-  background: #ef711d;
-  border: 0;
   font-style: normal;
   font-weight: bolder;
-  border-radius: 25px;
   font-size: 25px;
   line-height: 30px;
+
+  position: absolute;
+  width: 233px;
+  height: 62px;
+  left: 524px;
+  top: 1300px;
+
+  background: linear-gradient(180deg, #98e03c 0%, #92d275 100%);
+  border-radius: 30px;
 }
 
 .mais a {
