@@ -151,7 +151,7 @@ nav a:hover {
   }
 
   nav {
-    // all: unset; 
+     all: unset; 
 
     position: relative;
     text-align: left;
@@ -393,20 +393,46 @@ nav a:hover {
   width: 384px;
   height: 224px;
   left: 159px;
-  top: 2182px;
+  top: 2210px;
   font-style: normal;
   font-weight: bold;
-  font-size: 26px;
+  font-size: 20px;
   line-height: 39px;
-  color: #000000;;
+  color: #000000;
 }
 
 .inf {
   position: absolute;
-  width: 280px;
-  height: 124px;
+  width: 384px;
+  height: 224px;
   left: 159px;
-  top: 2282px;
+  top: 2280px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.endereço{
+  position: absolute;
+  width: 384px;
+  height: 224px;
+  left: 159px;
+  top: 2320px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.redes {
+  position: absolute;
+  width: 384px;
+  height: 42px; 
+  left: 159px;
+  top: 2384px;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -414,26 +440,11 @@ nav a:hover {
   color: #000000;
 }
 
-.endereço {
+.face {
   position: absolute;
-  width: 290px;
-  height: 84px;
-  left: 159px;
-  top: 2340px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 15px;
-}
-
-.redes {
-  position: absolute;
-  width: 384px;
-  height: 15px;
-  left: 159px;
-  top: 2390px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 30px;
-color: #000000;
+  left: 12.81%;
+  right: 84.22%;
+  top: 91.37%;
+  bottom: 7.13%;
+  background: #000000;
 }
