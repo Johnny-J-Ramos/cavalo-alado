@@ -173,20 +173,27 @@ a:hover {
 /*historia*/
 
 .content {
-  display: flexbox;
-  position: relative;
-  width: 962px;
-  height: 268px;
-  left: 196px;
-  top: 783px;
+}
 
-  font-family: Poppins;
+.content {
+  display: flex;
+  flex-flow: wrap;
+  position: absolute;
   font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 24px;
-
+  margin-top: 50px;
   color: #000000;
+}
+
+.content p {
+  width: 90%;
+  height: 100%;
+  margin: 50px auto;
+}
+
+.content h1 {
+  text-align: center;
 }
 
 /*button*/
