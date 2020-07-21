@@ -18,25 +18,24 @@
       href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   </head>
   <body>
     <!--Navbar da pagina-->
-    <header>
-      <h1 class="logo">Logo</h1>
 
-      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Nossa história</a></li>
-          <li><a href="#">Faça uma doação</a></li>
-          <li><a href="#">Contato</a></li>
-        </ul>
-      </nav>
-      <label for="nav-toggle" class="nav-toggle-label">
-        <span></span>
+    <nav>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
       </label>
-    </header>
+      <label class="logo">Logo</label>
+      <ul>
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#">Nossa história</a></li>
+        <li><a href="#">Faça uma doação</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
 
     <!--Video background da pagina-->
     <section id="home">
@@ -109,21 +108,23 @@
         <span>Contato</span>
       </div>
       <div class="inf">
-        <p>Ribeirão Pires - SP<br>
+        <p>
+          Ribeirão Pires - SP<br />
           +55 11 96403-2001
         </p>
       </div>
       <div class="endereço">
-        <p>Rua Stafan Metzer,288, Ouro Fino Paulista<br>
+        <p>
+          Rua Stafan Metzer,288, Ouro Fino Paulista<br />
           CEP:09441-340
         </p>
       </div>
       <div class="redes">
-       <span>Acompanhe nossas redes sociais</span>
+        <span>Acompanhe nossas redes sociais</span>
       </div>
-     <div class="face">
-       <img src="/src/img/Vector (1).png" >
-     </div>
+      <div class="face">
+        <img src="/src/img/Vector (1).png" />
+      </div>
     </section>
 
     <!--Google Maps com o endereço do local-->
