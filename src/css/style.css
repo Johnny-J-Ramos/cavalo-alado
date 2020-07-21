@@ -9,7 +9,7 @@ body {
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:300,600');
 
 :root {
-  --background: 0);
+  --background: (0);
 }
 
 *,
@@ -386,4 +386,54 @@ nav a:hover {
   height: 448px;
   left: 269px;
   top: 1575px;
+}
+
+.contato {
+  position: absolute;
+  width: 384px;
+  height: 224px;
+  left: 159px;
+  top: 2182px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 39px;
+  color: #000000;;
+}
+
+.inf {
+  position: absolute;
+  width: 280px;
+  height: 124px;
+  left: 159px;
+  top: 2282px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.endereço {
+  position: absolute;
+  width: 290px;
+  height: 84px;
+  left: 159px;
+  top: 2340px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.redes {
+  position: absolute;
+  width: 384px;
+  height: 15px;
+  left: 159px;
+  top: 2390px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+color: #000000;
 }
