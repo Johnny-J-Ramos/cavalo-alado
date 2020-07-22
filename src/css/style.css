@@ -4,7 +4,10 @@
   box-sizing: border-box;
 }
 body {
-  font-family: montserrat;
+  background-image: url('../img/fundo1.jpg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
 }
 
 nav {
@@ -13,11 +16,12 @@ nav {
   width: 100%;
 }
 
-label.logo {
-  color: white;
-  font-size: 35px;
-  line-height: 80px;
-  padding: 0 100px;
+.logo img {
+  position: absolute;
+  width: 169px;
+  height: 66px;
+  left: 54px;
+  top: 18px;
 }
 nav ul {
   float: right;
@@ -98,9 +102,11 @@ a:hover {
 }
 
 /*video de fundo*/
-#home {
+
+/*#home {
   height: 100%;
 }
+
 
 #home-bg-video {
   position: absolute;
@@ -112,7 +118,7 @@ a:hover {
   width: auto;
   height: auto;
   z-index: -1;
-}
+}*/
 
 /*historia*/
 
@@ -240,7 +246,6 @@ a:hover {
   text-align: center;
   padding: 5px 10px;
   margin-top: 40px;
-  background: linear-gradient(180deg, #98e03c 0%, #92d275 100%);
   border-radius: 30px;
   color: #fff;
 }
