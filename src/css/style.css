@@ -187,7 +187,8 @@ a:hover {
 }
 
 .content p {
-  width: 90%;
+  width: 100;
+  margin-bottom: 50%;
   height: 100%;
   margin: 50px auto;
 }
@@ -216,8 +217,7 @@ a:hover {
 }
 
 .mais a {
-  margin: auto;
-  text-decoration: none;
+  text-align: center;
   color: #000;
 }
 
