@@ -189,7 +189,7 @@ a:hover {
   width: 540px;
   height: 310px;
   left: 592px;
-  top: 2166px;
+  top: 2100px;
 }
 
 .mps .maps {
@@ -291,6 +291,7 @@ a:hover {
 }
 
 .part video {
+  display: flex;
   position: absolute;
   width: 795.82px;
   height: 448px;
@@ -381,7 +382,7 @@ footer {
 .rodape .facebook {
   position: absolute;
   top: 20px;
-  left: 83.91%;
+  left: 3%;
   right: 12.34%;
 }
 .rodape .instagram {
@@ -400,4 +401,14 @@ footer {
   font-size: 18px;
   line-height: 33px;
   top: 25px;
+}
+
+.cont-inf {
+  display: grid;
+  position: absolute;
+  width: 779px;
+  height: 288px;
+  left: 250px;
+  top: 945px;
+  margin-left: 20px;
 }
