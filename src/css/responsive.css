@@ -8,11 +8,18 @@
 }
 @media screen and (max-width: 800px) {
   iframe {
-    width: 440px;
-    height: 210px;
+    width: 400px;
+    height: 200px;
   }
+  .checkbtn {
+    color: lawngreen;
+  }
+
   .part video {
     width: 545px;
     height: 248px;
+  }
+  body {
+    background-image: none;
   }
 }

@@ -34,6 +34,12 @@ nav ul li {
   margin: 0 5px;
 }
 nav ul li a {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+
   color: white;
   font-size: 17px;
   padding: 7px 13px;
@@ -123,6 +129,7 @@ a:hover {
 .mais a {
   text-align: center;
   color: #000;
+  justify-content: center;
 }
 
 .mais:hover {
@@ -207,10 +214,22 @@ a:hover {
 
 .histo {
   position: absolute;
-  width: 100%;
+  display: block;
   padding: 20px;
-  margin: 0;
+  width: 100%;
   top: 945px;
+  justify-content: center;
+  justify-content: space-around;
+  flex-flow: wrap;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: justify;
+
+  color: #000000;
 }
 
 /*Video faça parte desta equipe*/
@@ -286,7 +305,7 @@ footer {
 .rodape .instagram {
   position: absolute;
   top: 20px;
-  left: 9.69%;
+  left: 6.69%;
   right: 6.56%;
 }
 
