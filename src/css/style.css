@@ -113,8 +113,7 @@ a:hover {
   position: absolute;
   width: 233px;
   height: 62px;
-  left: 524px;
-  top: 1300px;
+
   border: 0;
 
   background: linear-gradient(180deg, #98e03c 0%, #92d275 100%);
@@ -281,13 +280,13 @@ footer {
 .rodape .facebook {
   position: absolute;
   top: 20px;
-  left: 3%;
+  left: 1%;
   right: 12.34%;
 }
 .rodape .instagram {
   position: absolute;
   top: 20px;
-  left: 89.69%;
+  left: 9.69%;
   right: 6.56%;
 }
 
