@@ -216,13 +216,20 @@ a:hover {
 
 /*Video faça parte desta equipe*/
 
-.part video {
-  display: flex;
+.video-equipe {
   position: absolute;
-  width: 795.82px;
-  height: 448px;
-  left: 269px;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  flex-flow: wrap;
   top: 1575px;
+}
+.video-equipe h2 {
+  text-align: center;
+  height: -20px;
 }
 
 /*Informações para contato + google maps*/
