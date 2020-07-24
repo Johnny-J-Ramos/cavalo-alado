@@ -207,11 +207,11 @@ a:hover {
 /*Conheça nossa história*/
 
 .histo {
+  position: absolute;
+  width: 100%;
+  padding: 20px;
+  margin: 0;
   top: 945px;
-}
-
-.texto h1 #por1 #por2 #por3 #por4 {
-  position: relative;
 }
 
 /*Video faça parte desta equipe*/
