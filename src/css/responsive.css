@@ -1,0 +1,14 @@
+@media screen and (max-width: 1000px) {
+  .contatos {
+    visibility: hidden;
+    float: none;
+    margin-right: none;
+    display: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  iframe {
+    width: 440px;
+    height: 210px;
+  }
+}
